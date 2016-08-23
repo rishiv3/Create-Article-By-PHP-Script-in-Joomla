@@ -16,7 +16,7 @@ $app = JFactory::getApplication('site');
 
 $article_data = array(
     'id' => 0,
-    'catid' => 3,
+    'catid' => 3, // any cat id will work here
     'title' => 'Hello World',
     'alias' => 'my-article-alias',
     'introtext' => 'My intro text',
